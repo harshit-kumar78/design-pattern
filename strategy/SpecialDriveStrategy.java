@@ -1,9 +1,12 @@
-package withoutStrategypattern;
+package strategy;
 
-public class SportVehicle extends Vehicle {
+public class SpecialDriveStrategy implements DriveStrategy {
 
 	@Override
 	public void drive() {
+	
 		System.out.println("special drive capability");
+
 	}
+
 }
